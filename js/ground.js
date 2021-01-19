@@ -9,7 +9,8 @@ class Ground
       this.h = h;
       World.add(world, this.body);
     }
-    display(){
+    display()
+    {
       var pos =this.body.position;
       rectMode(CENTER);
       fill("white");
